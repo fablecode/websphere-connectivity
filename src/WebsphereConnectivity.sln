@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Core", "1. Core", "{F117D5B6-0B3F-4B6F-89C6-6D96E0A12581}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Domain", "2. Domain", "{12C6BF32-DC72-4E66-8582-57B20AD208DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Application", "3. Application", "{CCF0CAF4-0A36-4201-BD85-78A5F0E36518}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Infrastructure", "4. Infrastructure", "{E9232794-92AD-43EE-B4F2-B2DA71031B7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Presentation", "5. Presentation", "{9D2319F7-39DA-46BB-8C0D-629C845F43B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. Tests", "6. Tests", "{54B843CF-9C5F-4F4F-8244-8C9FB4BBB47F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit", "Unit", "{1E4B9349-FBBE-4273-AB8A-E10359AC6DBC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "websphereconnectivity", "Presentation\websphereconnectivity\websphereconnectivity.csproj", "{C22BCC86-8E5D-4743-87C7-DEC762F7E5A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C22BCC86-8E5D-4743-87C7-DEC762F7E5A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C22BCC86-8E5D-4743-87C7-DEC762F7E5A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C22BCC86-8E5D-4743-87C7-DEC762F7E5A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C22BCC86-8E5D-4743-87C7-DEC762F7E5A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1E4B9349-FBBE-4273-AB8A-E10359AC6DBC} = {54B843CF-9C5F-4F4F-8244-8C9FB4BBB47F}
+		{C22BCC86-8E5D-4743-87C7-DEC762F7E5A6} = {9D2319F7-39DA-46BB-8C0D-629C845F43B1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C293B4DD-599B-46EF-BE02-3060BA3AC3CA}
+	EndGlobalSection
+EndGlobal
